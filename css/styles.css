@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "SerifDisplay";
+    src: url(../fonts/DMSerifDisplay-Regular.ttf) ;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: serifdisplay;
+}
+
+.body {
+    background-image: url(../imagenes/background.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+nav {
+    background: #dab49d;
+    display: flex;
+    height: 50px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+nav .logo img {
+    height: 50px;
+    width: 50px;
+}
+
+.nav-bar {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.carro {
+    display: flex;
+    justify-content: space-around;
+    width: 10%;
+}
+
+.nav-item {
+    width: 100px;
+    height: 50px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.nav-carro {
+    color: #f3e9dc;
+    width: 60px;
+    height: 50px;
+}
+
+.nav-item {
+    color: #f3e9dc;
+    text-decoration: none;
+}
+
+section {
+    background-color: #dab49dd2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #f3e9dc;
+    height: 400px;
+}
+
+.img {
+    width: 300px;
+}
+
+p {
+    width: 800px;
+}
