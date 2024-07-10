@@ -1,4 +1,13 @@
 @font-face {
+    font-family: "Chucknoon";
+    src: url(../fonts/ChuckNoon.ttf) ;
+}
+@font-face {
+    font-family: "Butler";
+    src: url(../fonts/Butler_Regular.otf) ;
+}
+
+@font-face {
     font-family: "SerifDisplay";
     src: url(../fonts/DMSerifDisplay-Regular.ttf) ;
 }
@@ -7,26 +16,27 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: serifdisplay;
 }
 
 .body {
-    background-image: url(../imagenes/background.jpeg);
+    background-image: url(../imagenes/cebada\ bg.jpg);
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 nav {
-    background: #dab49d;
+    background: #dab49d85;
     display: flex;
     height: 50px;
     width: 100%;
     justify-content: space-between;
+    font-family: SerifDisplay;
 }
 
 nav .logo img {
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
 }
 
 .nav-bar {
@@ -41,13 +51,19 @@ nav .logo img {
     width: 10%;
 }
 
+li {
+    list-style-type: none;
+    margin: auto;
+    margin-top: 10px;
+}
+
 .nav-item {
     width: 100px;
     height: 50px;
-}
-
-li {
-    list-style-type: none;
+    color: #5e3023;
+    text-decoration: none;
+    margin:auto;
+    text-transform: uppercase;
 }
 
 .nav-carro {
@@ -56,24 +72,35 @@ li {
     height: 50px;
 }
 
-.nav-item {
-    color: #f3e9dc;
-    text-decoration: none;
-}
-
 section {
-    background-color: #dab49dd2;
+    background-color: #dab49d85;
     display: flex;
     flex-direction: column;
     align-items: center;
     color: #f3e9dc;
-    height: 400px;
+    height: 80vh;
+    font-size: 1.5vw;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+h1 {
+    font-family: Chucknoon;
 }
 
 .img {
+    margin-top: 30px;
+    margin-bottom: 20px;
     width: 300px;
 }
 
-p {
+.texto-principal{
     width: 800px;
+    font-family: Butler;
+    text-align: center;
+    height: 20vh;
+}
+
+footer {
+    height: 10vh;
 }
