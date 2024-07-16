@@ -1,17 +1,3 @@
-@font-face {
-    font-family: "Chucknoon";
-    src: url(../fonts/ChuckNoon.ttf) ;
-}
-@font-face {
-    font-family: "Butler";
-    src: url(../fonts/Butler_Regular.otf) ;
-}
-
-@font-face {
-    font-family: "SerifDisplay";
-    src: url(../fonts/DMSerifDisplay-Regular.ttf) ;
-}
-
 * {
     margin: 0px;
     padding: 0px;
@@ -30,7 +16,7 @@ nav {
     display: flex;
     height: 50px;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
     font-family: SerifDisplay;
 }
 
@@ -39,22 +25,21 @@ nav .logo img {
     width: 40px;
 }
 
+nav .logo {
+    margin-top: auto;
+    margin-left: ;
+    font-family: Chucknoon;
+    font-size: 20px;
+    text-decoration: none;
+    color: #5e3023;
+    
+}
+
 .nav-bar {
     width: 60%;
     display: flex;
     justify-content: space-around;
-}
-
-.carro {
-    display: flex;
-    justify-content: space-around;
-    width: 10%;
-}
-
-li {
-    list-style-type: none;
-    margin: auto;
-    margin-top: 10px;
+    margin-top: 8px;
 }
 
 .nav-item {
@@ -64,12 +49,42 @@ li {
     text-decoration: none;
     margin:auto;
     text-transform: uppercase;
+    background: #00000010;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid #00000038;
+}
+
+.nav-item:hover {
+    color: #f3e9dc;
+    transition: 0.4s;
+}
+
+.carro {
+    display: flex;
+    width: 200px;
+    padding-left: 10px;
+    margin-left: 10px;
 }
 
 .nav-carro {
     color: #f3e9dc;
-    width: 60px;
-    height: 50px;
+    background:;
+
+}
+
+#carrito {
+    font-size: 20px;
+    background: rgb(4, 66, 4);
+    padding: 10px;
+    border-radius: 50px;
+    margin: auto;
+}
+
+li {
+    list-style-type: none;
+    margin: auto;
+    margin-top: 10px;
 }
 
 section {
@@ -78,10 +93,7 @@ section {
     flex-direction: column;
     align-items: center;
     color: #f3e9dc;
-    height: 80vh;
-    font-size: 1.5vw;
     height: 100vh;
-    flex-wrap: wrap;
 }
 
 h1 {
@@ -95,10 +107,13 @@ h1 {
 }
 
 .texto-principal{
-    width: 800px;
+    max-width: 600px;
     font-family: Butler;
     text-align: center;
-    height: 20vh;
+    height: auto;
+    color: #3c1a10;
+    background: #00000010;;
+    border-radius: 10px;
 }
 
 footer {
