@@ -4,20 +4,18 @@
     box-sizing: border-box;
 }
 
-.body {
+main {
     background-image: url(../imagenes/cebada\ bg.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
 }
 
+
 nav {
-    background: #dab49d85;
-    display: flex;
-    height: 50px;
-    width: 100%;
-    justify-content: space-around;
     font-family: SerifDisplay;
+    background-color: #dab49d85;
+    text-transform: uppercase;
 }
 
 nav .logo img {
@@ -26,77 +24,30 @@ nav .logo img {
 }
 
 nav .logo {
-    margin-top: auto;
-    margin-left: ;
     font-family: Chucknoon;
     font-size: 20px;
     text-decoration: none;
-    color: #5e3023;
-    
 }
 
 .nav-bar {
     width: 60%;
     display: flex;
-    justify-content: space-around;
-    margin-top: 8px;
-}
-
-.nav-item {
-    width: 100px;
-    height: 50px;
-    color: #5e3023;
-    text-decoration: none;
-    margin:auto;
-    text-transform: uppercase;
-    background: #00000010;
-    padding: 5px;
-    border-radius: 5px;
-    border: 2px solid #00000038;
-}
-
-.nav-item:hover {
-    color: #f3e9dc;
-    transition: 0.4s;
-}
-
-.carro {
-    display: flex;
-    width: 200px;
-    padding-left: 10px;
-    margin-left: 10px;
-}
-
-.nav-carro {
-    color: #f3e9dc;
-    background:;
-
-}
-
-#carrito {
-    font-size: 20px;
-    background: rgb(4, 66, 4);
-    padding: 10px;
-    border-radius: 50px;
-    margin: auto;
 }
 
 li {
     list-style-type: none;
     margin: auto;
-    margin-top: 10px;
 }
 
-section {
+.principio {
     background-color: #dab49d85;
     display: flex;
     flex-direction: column;
     align-items: center;
     color: #f3e9dc;
-    height: 100vh;
 }
 
-h1 {
+h1 , h2 {
     font-family: Chucknoon;
 }
 
@@ -114,6 +65,18 @@ h1 {
     color: #3c1a10;
     background: #00000010;;
     border-radius: 10px;
+}
+
+.carrusel {
+    background-color: #dab49d85;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carousel-inner {
+    border-radius: 20px;
+    border: 2px #3c1a10 solid;
 }
 
 footer {
