@@ -72,11 +72,17 @@ h1 , h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 50px;
 }
 
 .carousel-inner {
     border-radius: 20px;
     border: 2px #3c1a10 solid;
+    width: ;
+}
+
+.carousel-img {
+    min-height : 500px;
 }
 
 footer {
