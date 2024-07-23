@@ -11,10 +11,14 @@ main {
     background-attachment: fixed;
 }
 
+.div-vacio {
+    padding-top: 50px;
+    background-color: #dab49d;
+}
 
 nav {
     font-family: SerifDisplay;
-    background-color: #dab49d85;
+    background-color: #dab49de4;
     text-transform: uppercase;
 }
 
@@ -34,13 +38,13 @@ nav .logo {
     display: flex;
 }
 
-li {
+.nav-item {
     list-style-type: none;
     margin: auto;
 }
 
 .principio {
-    background-color: #dab49d85;
+    background: #dab49d85;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -67,22 +71,42 @@ h1 , h2 {
     border-radius: 10px;
 }
 
-.carrusel {
+.nuestros-productos {
     background-color: #dab49d85;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 50px;
+    color: #3c1a10;
+}
+
+.carrusel {
 }
 
 .carousel-inner {
+    margin-top: 10px;
+    margin-bottom: 10px;
     border-radius: 20px;
     border: 2px #3c1a10 solid;
-    width: ;
 }
 
 .carousel-img {
-    min-height : 500px;
+    min-height : 410px;
+}
+
+.proceso-productivo {
+    background-color: #dab49d85;
+    color: #3c1a10;
+}
+
+.video-malta {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 320px;
+    height: 180px;
+
+}
+
+@media screen and  (min-width:800px) {
+    .video-malta {
+        width: 640px;
+        height: 360px;}
 }
 
 footer {

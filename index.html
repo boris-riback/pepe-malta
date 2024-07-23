@@ -43,41 +43,73 @@
                     <p class="texto-principal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam vero et, distinctio vitae laboriosam commodi natus excepturi itaque harum. Ipsa repudiandae perspiciatis quam explicabo possimus! Amet numquam dolore veritatis nihil.Malteria don pepe es un negocio familiar, desde su fundacion en el año 2024 a  la actualidad la familia Riback esta comprometida desde produccion de materia prima hasta llegar a la mesa de los consumidores.........
                     </p>
                 </section>
-                <section class="carrusel">
-                    <h2>nuestros productos</h2>
-                    <div id="carouselExample" class="carousel slide">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img  class="carousel-img" src="./imagenes/carrusel/levaduras.jpg" class="d-block w-300" alt="...">
+                <!-- pongo un div vacio para separar las partes de la pagina -->
+                <div class="div-vacio"></div>
+                                <!-- meti todos los section dentro de un contenedor div para que me tomara el fondo background que opaca la imagen   -->
+                <div class="nuestros-productos">
+                <section class= "container">
+                    <div class="row align-items-center">
+                        <div id="carouselExample" class="carousel slide col-md-8">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img  class="carousel-img" src="./imagenes/carrusel/levaduras.jpg" class="d-block w-300" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="carousel-img" src="./imagenes/carrusel/lupulos.jpg" class="d-block w-300" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="carousel-img" src="./imagenes/carrusel/maltas.jpg" class="d-block w-300" alt="...">
+                                </div>
                             </div>
-                            <div class="carousel-item">
-                                <img class="carousel-img" src="./imagenes/carrusel/lupulos.jpg" class="d-block w-300" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                                <img class="carousel-img" src="/imagenes/carrusel/maltas.jpg" class="d-block w-300" alt="...">
-                            </div>
-                        </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
                                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                     <span class="visually-hidden">Previous</span>
-                                </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
                             </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <h2 >Nuestros Productos</h2>
+                            <p>En pepe malta, ademas de nuestras maltas, contamos con otros productos para la fabricacion de cerveza</p>
+                        </div>
                     </div>
                 </section>
+                </div>
+                <!-- pongo un div vacio para separar las partes de la pagina -->
+                <div class="div-vacio"></div>
+                <div class="proceso-productivo">
+                <section class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-4 text-center">
+                            <h2>proceso productivo</h2>
+                            <p>aqui un video donde te enseñamos como conseguimos la malta para la elaboracion de la cerveza</p>
+                        </div>
+                        <div class="col-md-1"></div>
+                        <div class="col-md-4 video-malta text-center">
+                            <iframe class="video-malta" width="640" height="360" src="https://www.youtube.com/embed/qXnRX9Do4l0" title="Como se hace la malta" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </section>
+                </div>
         </main>
-    <footer>
-        <p class="copyright">todos los derechos reservados</p>
-        <div class="redes">
-            <a href=""><i class="fa-brands fa-square-facebook"></i></a>
-            <a href=""><i class="fa-brands fa-instagram"></i></a>
-            <a href=""><i class="fa-brands fa-whatsapp"></i></a>
-            <a href=""><i class="fa-brands fa-youtube"></i></a>
-            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+        <div>
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                <div class="col-md-4 d-flex align-items-center">
+                    <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                        <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+                    </a>
+                <span class="text-muted">todos los derechos reservados</span>
+                </div>
+                <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                    <li class="ms-3"><a href=""><i class="fa-brands fa-square-facebook"></i></a></li>
+                    <li class="ms-3"><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                    <li class="ms-3"><a href=""><i class="fa-brands fa-whatsapp"></i></a></li>
+                    <li class="ms-3"><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+                </ul>
+            </footer>
         </div>
-    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
