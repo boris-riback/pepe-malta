@@ -43,7 +43,7 @@ nav .logo {
     margin: auto;
 }
 
-.principio ,  {
+.principio {
     background: #dab49d85;
     display: flex;
     flex-direction: column;
@@ -103,7 +103,8 @@ h1 , h2 {
 @media screen and  (min-width:800px) {
     .video-malta {
         width: 640px;
-        height: 360px;}
+        height: 360px;
+    }
 }
 
 .bg {
