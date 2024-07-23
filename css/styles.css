@@ -43,7 +43,7 @@ nav .logo {
     margin: auto;
 }
 
-.principio {
+.principio ,  {
     background: #dab49d85;
     display: flex;
     flex-direction: column;
@@ -76,9 +76,6 @@ h1 , h2 {
     color: #3c1a10;
 }
 
-.carrusel {
-}
-
 .carousel-inner {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -107,6 +104,12 @@ h1 , h2 {
     .video-malta {
         width: 640px;
         height: 360px;}
+}
+
+.bg {
+    padding-top: 50px;
+    background: #dab49d85;
+    padding-bottom: 100px;
 }
 
 footer {
