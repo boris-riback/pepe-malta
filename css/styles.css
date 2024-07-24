@@ -30,17 +30,13 @@ nav .logo img {
 nav .logo {
     font-family: Chucknoon;
     font-size: 20px;
-    text-decoration: none;
 }
 
-.nav-bar {
-    width: 60%;
-    display: flex;
-}
 
 .nav-item {
     list-style-type: none;
-    margin: auto;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .principio {
@@ -53,6 +49,7 @@ nav .logo {
 
 h1 , h2 {
     font-family: Chucknoon;
+    color: #f3e9dc;
 }
 
 .img {
@@ -100,10 +97,20 @@ h1 , h2 {
 
 }
 
+.nuestros-clientes {
+    display: flex;
+    justify-content: space-around;
+    background-color: #dab49d85;
+}
+
 @media screen and  (min-width:800px) {
     .video-malta {
         width: 640px;
         height: 360px;
+    }
+/* el margin-left en el nabvar-div es para que cuando el formato de pantalla sea mas grande, el nabvar quede centrado en el navegador, por que sino se me rompia en el menu hamburguesa */
+    .nabvar-div {
+        margin-left: 15%;
     }
 }
 
@@ -111,8 +118,4 @@ h1 , h2 {
     padding-top: 50px;
     background: #dab49d85;
     padding-bottom: 100px;
-}
-
-footer {
-    height: 10vh;
 }
