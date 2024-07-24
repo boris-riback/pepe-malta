@@ -17,7 +17,7 @@ main {
 }
 
 nav {
-    font-family: SerifDisplay;
+    font-family: Chucknoon;
     background-color: #dab49de4;
     text-transform: uppercase;
 }
@@ -81,7 +81,7 @@ h1 , h2 {
 }
 
 .carousel-img {
-    min-height : 410px;
+    min-height : 420px;
 }
 
 .proceso-productivo {
@@ -98,9 +98,19 @@ h1 , h2 {
 }
 
 .nuestros-clientes {
-    display: flex;
-    justify-content: space-around;
     background-color: #dab49d85;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.img-clientes {
+    border-radius: 10px;
+    border: 2px solid #3c1a10;
+}
+
+.row-vacia {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 @media screen and  (min-width:800px) {
@@ -110,7 +120,7 @@ h1 , h2 {
     }
 /* el margin-left en el nabvar-div es para que cuando el formato de pantalla sea mas grande, el nabvar quede centrado en el navegador, por que sino se me rompia en el menu hamburguesa */
     .nabvar-div {
-        margin-left: 15%;
+        margin-left: 17%;
     }
 }
 
