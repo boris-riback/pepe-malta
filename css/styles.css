@@ -1,131 +1,136 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
 main {
-    background-image: url(../imagenes/cebada\ bg.jpg);
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
+  background-image: url(../imagenes/cebada\ bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .div-vacio {
-    padding-top: 50px;
-    background-color: #dab49d;
+  padding-top: 50px;
+  background-color: #dab49d;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 }
 
 nav {
-    font-family: Chucknoon;
-    background-color: #dab49de4;
-    text-transform: uppercase;
+  font-family: Chucknoon;
+  background-color: #dab49d;
+  text-transform: uppercase;
 }
 
 nav .logo img {
-    height: 40px;
-    width: 40px;
+  height: 40px;
+  width: 40px;
 }
 
 nav .logo {
-    font-family: Chucknoon;
-    font-size: 20px;
+  font-family: Chucknoon;
+  font-size: 20px;
 }
 
-
 .nav-item {
-    list-style-type: none;
-    margin-left: 10px;
-    margin-right: 10px;
+  list-style-type: none;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .principio {
-    background: #dab49d85;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: #f3e9dc;
-}
-
-h1 , h2 {
-    font-family: Chucknoon;
-    color: #f3e9dc;
-}
-
-.img {
-    margin-top: 30px;
-    margin-bottom: 20px;
-    width: 300px;
-}
-
-.texto-principal{
-    max-width: 600px;
-    font-family: Butler;
-    text-align: center;
-    height: auto;
-    color: #3c1a10;
-    background: #00000010;;
-    border-radius: 10px;
+  background: rgba(218, 180, 157, 0.5215686275);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #f3e9dc;
 }
 
 .nuestros-productos {
-    background-color: #dab49d85;
-    color: #3c1a10;
-}
-
-.carousel-inner {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border-radius: 20px;
-    border: 2px #3c1a10 solid;
-}
-
-.carousel-img {
-    min-height : 420px;
+  background-color: rgba(218, 180, 157, 0.5215686275);
 }
 
 .proceso-productivo {
-    background-color: #dab49d85;
-    color: #3c1a10;
-}
-
-.video-malta {
-    margin-top: 10px;
-    margin-bottom: 20px;
-    width: 320px;
-    height: 180px;
-
+  background-color: rgba(218, 180, 157, 0.5215686275);
 }
 
 .nuestros-clientes {
-    background-color: #dab49d85;
-    padding-top: 10px;
-    padding-bottom: 10px;
+  background-color: rgba(218, 180, 157, 0.5215686275);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+h1 {
+  font-family: Chucknoon;
+}
+
+h2 {
+  font-family: Chucknoon;
+  color: #3c1a10;
+}
+
+.img-logo {
+  margin-top: 80px;
+  margin-bottom: 20px;
+  width: 300px;
+}
+
+.carousel-inner {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  border: 2px #3c1a10 solid;
+}
+
+.carousel-img {
+  min-height: 420px;
 }
 
 .img-clientes {
-    border-radius: 10px;
-    border: 2px solid #3c1a10;
+  border-radius: 10px;
+  border: 2px solid #3c1a10;
+  margin-bottom: 10px;
 }
 
-.row-vacia {
-    padding-top: 10px;
-    padding-bottom: 10px;
+.video-malta {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 320px;
+  height: 180px;
 }
 
-@media screen and  (min-width:800px) {
-    .video-malta {
-        width: 640px;
-        height: 360px;
-    }
-/* el margin-left en el nabvar-div es para que cuando el formato de pantalla sea mas grande, el nabvar quede centrado en el navegador, por que sino se me rompia en el menu hamburguesa */
-    .nabvar-div {
-        margin-left: 17%;
-    }
+p {
+  max-width: 600px;
+  font-family: Butler;
+  text-align: center;
+  color: #3c1a10;
+  background: rgba(0, 0, 0, 0.062745098);
+  border-radius: 10px;
+  font-size: 20px;
 }
 
+.redes {
+  font-size: 30px;
+}
+
+@media screen and (min-width: 800px) {
+  .video-malta {
+    width: 640px;
+    height: 360px;
+  }
+  /* el margin-left en el nabvar-div es para que cuando el formato de pantalla sea mas grande, el nabvar quede centrado en el navegador, por que sino se me rompia en el menu hamburguesa */
+  .nabvar-div {
+    margin-left: 17%;
+  }
+}
 .bg {
-    padding-top: 50px;
-    background: #dab49d85;
-    padding-bottom: 100px;
-}
+  padding-top: 50px;
+  background: rgba(218, 180, 157, 0.5215686275);
+  padding-bottom: 100px;
+}/*# sourceMappingURL=styles.css.map */

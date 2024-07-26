@@ -1,0 +1,175 @@
+// VARIABLES //
+// fuentes
+$font-principal: Chucknoon;
+$font-secundaria: Butler;
+
+// colores
+$principal-color: #dab49d;
+$second-color: #f3e9dc;
+$bg-color: #dab49d85;
+$bg-text: #00000010;
+$text-color: #3c1a10;
+
+// tamaños
+$font-size-titulos: 50px;
+$font-size-textos: 20px;
+$medidas-logo: 40px;
+$separador: 10px; //separador de las diferentes secciones
+//FIN VARIABLES//
+
+//GENERAL
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+main {
+    background-image: url(../imagenes/cebada\ bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.div-vacio {
+    padding-top: 50px;
+    background-color: $principal-color;
+}
+//FIN GENERAL
+
+
+//NAV
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+nav {
+    font-family: $font-principal;
+    background-color: $principal-color;
+    text-transform: uppercase;
+}
+
+nav .logo img {
+    height: $medidas-logo;
+    width: $medidas-logo;
+}
+
+nav .logo {
+    font-family: $font-principal;
+    font-size: $font-size-textos;
+}
+
+.nav-item {
+    list-style-type: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+//TERMINA NAV
+
+
+//SECTIONS (PRINCIPIO)
+.principio {
+    background: $bg-color;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: $second-color;
+}
+
+.nuestros-productos {
+    background-color: $bg-color;
+}
+
+.proceso-productivo {
+    background-color: $bg-color;
+}
+
+.nuestros-clientes {
+    background-color: $bg-color;
+    padding-top: $separador;
+    padding-bottom: $separador;
+}
+//FIN SECTIONS
+
+
+//TITULOS
+h1 {
+    font-family: $font-principal;
+}
+
+h2 {
+    font-family: $font-principal;
+    color: $text-color;
+}
+//FIN TITULOS
+
+
+//IMAGENES Y VIDEOS
+.img-logo {
+    margin-top: 80px;
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+.carousel-inner {
+    margin-top: $separador;
+    margin-bottom: $separador;
+    border-radius: 20px;
+    border: 2px #3c1a10 solid;
+}
+
+.carousel-img {
+    min-height : 420px;
+}
+
+.img-clientes {
+    border-radius: 10px;
+    border: 2px solid #3c1a10;
+    margin-bottom: $separador;
+}
+
+.video-malta {
+    margin-top: $separador;
+    margin-bottom: $separador;
+    width: 320px;
+    height: 180px;
+}
+//FIN IMAGENES Y VIDEOS
+
+
+//TEXTOS
+p {
+    max-width: 600px;
+    font-family: $font-secundaria;
+    text-align: center;
+    color: $text-color;
+    background: $bg-text;
+    border-radius: 10px;
+    font-size: $font-size-textos;
+}
+
+.redes{
+    font-size: 30px;
+}
+//FIN TEXTOS
+
+//MEDIA QUERIES
+@media screen and  (min-width:800px) {
+    .video-malta {
+        width: 640px;
+        height: 360px;
+    }
+/* el margin-left en el nabvar-div es para que cuando el formato de pantalla sea mas grande, el nabvar quede centrado en el navegador, por que sino se me rompia en el menu hamburguesa */
+    .nabvar-div {
+        margin-left: 17%;
+    }
+}
+//FIN MEDIA QUERIES
+
+.bg {
+    padding-top: 50px;
+    background: #dab49d85;
+    padding-bottom: 100px;
+}
