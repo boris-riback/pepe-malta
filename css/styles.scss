@@ -1,6 +1,7 @@
 // HOJAS DE ESTILO
 @import "_contacto";
 @import "_registro";
+@import "_tienda";
 // FIN HOJAS DE ESTILO
 
 // VARIABLES //
@@ -13,7 +14,7 @@ $principal-color: #dab49d;
 $second-color: #f3e9dc;
 $bg-color: #dab49d85;
 $bg-text: #00000024;
-$text-color: #3c1a10;
+$text-color: #f3e9dc;
 
 // tamaños
 $font-size-titulos: 50px;
@@ -30,7 +31,7 @@ $separador: 10px;
 }
 
 @mixin formato-texto {
-    max-width: 600px;
+    max-width: 500px;
     font-family: $font-secundaria;
     text-align: center;
     color: $text-color;
@@ -42,6 +43,10 @@ $separador: 10px;
 @mixin contenido-centrado {
     align-items: center;
     height: 80vh;
+}
+
+.content {
+    @include contenido-centrado;
 }
 //FIN MIXINS//
 
@@ -63,6 +68,8 @@ main {
 .div-vacio {
     @include section-separador;
 }
+
+
 //FIN GENERAL
 
 
@@ -177,6 +184,7 @@ p {
 }
 //FIN TEXTOS
 
+
 //MEDIA QUERIES
 @media screen and  (min-width:800px) {
     .video-malta {
@@ -190,6 +198,3 @@ p {
 }
 //FIN MEDIA QUERIES
 
-.content {
-    @include contenido-centrado;
-}

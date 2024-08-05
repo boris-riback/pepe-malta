@@ -1,0 +1,39 @@
+// VARIABLES //
+// fuentes
+$font-principal: Chucknoon;
+$font-secundaria: Butler;
+
+// colores
+$principal-color: #dab49d;
+$second-color: #f3e9dc;
+$bg-color: #dab49d85;
+$bg-text: #00000024;
+$text-color: #f3e9dc;
+
+// tamaños
+$font-size-titulos: 50px;
+$font-size-textos: 20px;
+$medidas-logo: 40px;
+$separador: 10px;
+//FIN VARIABLES//
+
+.bg {
+    background-image: url(../imagenes/cebada\ bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h5 {
+    font-family: buttler;
+}
+
+aside {
+    z-index: 0;
+}
+
+@media only screen and (max-width: 770px) {
+        aside {
+            display: none !important;
+        }
+        }

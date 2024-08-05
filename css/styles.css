@@ -12,6 +12,10 @@
   padding-top: 100px;
   background: rgba(218, 180, 157, 0.5215686275);
   padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 form-label {
@@ -21,6 +25,37 @@ form-label {
 
 .form {
   width: 50vw;
+}
+
+.registro {
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.bg {
+  background-image: url(../imagenes/cebada\ bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h5 {
+  font-family: buttler;
+}
+
+aside {
+  z-index: 0;
+}
+
+@media only screen and (max-width: 770px) {
+  aside {
+    display: none !important;
+  }
+}
+.content {
+  align-items: center;
+  height: 80vh;
 }
 
 * {
@@ -97,7 +132,7 @@ h1 {
 
 h2 {
   font-family: Chucknoon;
-  color: #3c1a10;
+  color: #f3e9dc;
 }
 
 .img-logo {
@@ -131,10 +166,10 @@ h2 {
 }
 
 p {
-  max-width: 600px;
+  max-width: 500px;
   font-family: Butler;
   text-align: center;
-  color: #3c1a10;
+  color: #f3e9dc;
   background: rgba(0, 0, 0, 0.1411764706);
   border-radius: 10px;
   font-size: 20px;
@@ -153,8 +188,4 @@ p {
   .nabvar-div {
     margin-left: 17%;
   }
-}
-.content {
-  align-items: center;
-  height: 80vh;
 }/*# sourceMappingURL=styles.css.map */
