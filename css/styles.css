@@ -33,13 +33,6 @@ form-label {
   padding: 15px;
 }
 
-.bg {
-  background-image: url(../imagenes/cebada\ bg.jpg);
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-}
-
 h5 {
   font-family: buttler;
 }
@@ -53,6 +46,43 @@ aside {
     display: none !important;
   }
 }
+.facts {
+  margin-bottom: 10px;
+}
+
+.featured {
+  background: #dab49d;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: auto;
+  align-content: center;
+  font-family: Butler;
+}
+
+.bialystok {
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  position: relative;
+}
+
+.bialystok iframe, .bialystok object, .bialystok embed {
+  height: 50%;
+  width: 70%;
+  position: absolute;
+}
+
+.contenedor {
+  height: 100vh;
+}
+
+.video {
+  height: 50%;
+}
+
 .content {
   align-items: center;
   height: 80vh;
@@ -158,13 +188,6 @@ h2 {
   margin-bottom: 10px;
 }
 
-.video-malta {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  width: 320px;
-  height: 180px;
-}
-
 p {
   max-width: 500px;
   font-family: Butler;
@@ -180,10 +203,6 @@ p {
 }
 
 @media screen and (min-width: 800px) {
-  .video-malta {
-    width: 640px;
-    height: 360px;
-  }
   /* el margin-left en el nabvar-div es para que cuando el formato de pantalla sea mas grande, el nabvar quede centrado en el navegador, por que sino se me rompia en el menu hamburguesa */
   .nabvar-div {
     margin-left: 17%;

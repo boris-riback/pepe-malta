@@ -2,6 +2,7 @@
 @import "_contacto";
 @import "_registro";
 @import "_tienda";
+@import "_sobre nosotros";
 // FIN HOJAS DE ESTILO
 
 // VARIABLES //
@@ -165,12 +166,7 @@ h2 {
     margin-bottom: $separador;
 }
 
-.video-malta {
-    margin-top: $separador;
-    margin-bottom: $separador;
-    width: 320px;
-    height: 180px;
-}
+
 //FIN IMAGENES Y VIDEOS
 
 
@@ -187,10 +183,6 @@ p {
 
 //MEDIA QUERIES
 @media screen and  (min-width:800px) {
-    .video-malta {
-        width: 640px;
-        height: 360px;
-    }
 /* el margin-left en el nabvar-div es para que cuando el formato de pantalla sea mas grande, el nabvar quede centrado en el navegador, por que sino se me rompia en el menu hamburguesa */
     .nabvar-div {
         margin-left: 17%;
