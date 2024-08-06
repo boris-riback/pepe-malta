@@ -2,7 +2,7 @@
 @import "_contacto";
 @import "_registro";
 @import "_tienda";
-@import "_sobre nosotros";
+@import "_sobre_nosotros";
 // FIN HOJAS DE ESTILO
 
 // VARIABLES //
@@ -70,13 +70,16 @@ main {
     @include section-separador;
 }
 
+.bg {
+    background: #dab49d85;
+}
 
 //FIN GENERAL
 
 
 //NAV
 header {
-    position: fixed;
+    position: sticky;
     width: 100%;
     z-index: 1;
 }
@@ -165,8 +168,6 @@ h2 {
     border: 2px solid #3c1a10;
     margin-bottom: $separador;
 }
-
-
 //FIN IMAGENES Y VIDEOS
 
 
