@@ -30,28 +30,6 @@ $separador: 10px;
     font-family: $font-secundaria;
 }
 
-.bialystok {
-    height: 0;
-	overflow: hidden;
-	padding-bottom: 56.25%;
-	padding-top: 30px;
-	position: relative;
-	}
-
-.bialystok iframe, .bialystok object, .bialystok embed {
-    height: 50%;
-	width: 70%;
-    position: absolute;
-}
-
-.contenedor {
-    height: 100vh;
-}
-
-.video {
-    height: 50%;
-    width: 70%;
-}
 
 .riback-cereales {
     margin-top: 20px;
@@ -59,4 +37,11 @@ $separador: 10px;
 }
 
 
+.bialystok {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
+.icono {
+    font-size: 30px;
+}

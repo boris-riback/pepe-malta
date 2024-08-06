@@ -104,6 +104,7 @@ nav .logo {
     list-style-type: none;
     margin-left: 10px;
     margin-right: 10px;
+    transition: 0,5s;
 }
 //TERMINA NAV
 
@@ -180,6 +181,12 @@ p {
     font-size: 30px;
 }
 //FIN TEXTOS
+
+//ANIMACIONES
+
+.nav-item:hover {
+    color: $second-color;
+}
 
 
 //MEDIA QUERIES

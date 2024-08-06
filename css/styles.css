@@ -57,32 +57,18 @@ aside {
   font-family: Butler;
 }
 
-.bialystok {
-  height: 0;
-  overflow: hidden;
-  padding-bottom: 56.25%;
-  padding-top: 30px;
-  position: relative;
-}
-
-.bialystok iframe, .bialystok object, .bialystok embed {
-  height: 50%;
-  width: 70%;
-  position: absolute;
-}
-
-.contenedor {
-  height: 100vh;
-}
-
-.video {
-  height: 50%;
-  width: 70%;
-}
-
 .riback-cereales {
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.bialystok {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.icono {
+  font-size: 30px;
 }
 
 .content {
@@ -138,6 +124,7 @@ nav .logo {
   list-style-type: none;
   margin-left: 10px;
   margin-right: 10px;
+  transition: 0, 5s;
 }
 
 .principio {
@@ -206,6 +193,10 @@ p {
 
 .redes {
   font-size: 30px;
+}
+
+.nav-item:hover {
+  color: #f3e9dc;
 }
 
 @media screen and (min-width: 800px) {
