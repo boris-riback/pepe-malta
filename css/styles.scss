@@ -14,7 +14,7 @@ $font-secundaria: Butler;
 $principal-color: #dab49d;
 $second-color: #f3e9dc;
 $bg-color: #dab49d85;
-$bg-text: #00000024;
+$bg-text: #00000091;
 $text-color: #f3e9dc;
 
 // tamaños
@@ -32,7 +32,6 @@ $separador: 10px;
 }
 
 @mixin formato-texto {
-    max-width: 500px;
     font-family: $font-secundaria;
     text-align: center;
     color: $text-color;
@@ -43,12 +42,8 @@ $separador: 10px;
 
 @mixin contenido-centrado {
     align-items: center;
-    height: 80vh;
 }
 
-.content {
-    @include contenido-centrado;
-}
 //FIN MIXINS//
 
 
@@ -72,6 +67,10 @@ main {
 
 .bg {
     background: #dab49d85;
+}
+
+.content {
+    @include contenido-centrado;
 }
 
 //FIN GENERAL
@@ -111,23 +110,18 @@ nav .logo {
 
 //SECTIONS (PRINCIPIO)
 .principio {
-    background: $bg-color;
     display: flex;
     flex-direction: column;
     align-items: center;
     color: $second-color;
 }
 
-.nuestros-productos {
-    background-color: $bg-color;
-}
-
 .proceso-productivo {
-    background-color: $bg-color;
+    height:100vh;
+
 }
 
 .nuestros-clientes {
-    background-color: $bg-color;
     padding-top: $separador;
     padding-bottom: $separador;
 }
@@ -142,6 +136,10 @@ h1 {
 h2 {
     font-family: $font-principal;
     color: $text-color;
+}
+
+h5 {
+    color: $bg-text;
 }
 //FIN TITULOS
 
@@ -168,7 +166,27 @@ h2 {
     border-radius: 10px;
     border: 2px solid #3c1a10;
     margin-bottom: $separador;
+    background: #000;
 }
+
+.img-clientes:last-child {
+    background: white;
+}
+
+.embed-responsive {
+    overflow: hidden;
+}
+
+.embed-responsive-item {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+iframe {
+    min-height: 300px ;
+}
+
 //FIN IMAGENES Y VIDEOS
 
 
@@ -188,7 +206,6 @@ p {
     color: $second-color;
 }
 
-
 //MEDIA QUERIES
 @media screen and  (min-width:800px) {
 /* el margin-left en el nabvar-div es para que cuando el formato de pantalla sea mas grande, el nabvar quede centrado en el navegador, por que sino se me rompia en el menu hamburguesa */
@@ -196,5 +213,6 @@ p {
         margin-left: 17%;
     }
 }
+
 //FIN MEDIA QUERIES
 

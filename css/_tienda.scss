@@ -7,7 +7,7 @@ $font-secundaria: Butler;
 $principal-color: #dab49d;
 $second-color: #f3e9dc;
 $bg-color: #dab49d85;
-$bg-text: #00000024;
+$bg-text: #00000090;
 $text-color: #f3e9dc;
 
 // tamaños
@@ -17,7 +17,11 @@ $medidas-logo: 40px;
 $separador: 10px;
 //FIN VARIABLES//
 
-
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+}
 
 h5 {
     font-family: buttler;
@@ -27,8 +31,15 @@ aside {
     z-index: 0;
 }
 
+.card-title {
+    text-transform: capitalize;
+    text-align: center;
+}
+
+
+
 @media only screen and (max-width: 770px) {
         aside {
             display: none !important;
         }
-        }
+}
