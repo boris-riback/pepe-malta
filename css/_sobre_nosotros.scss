@@ -31,6 +31,10 @@ $separador: 10px;
     font-weight: bolder;
 }
 
+.valores {
+    padding-bottom: 15px;
+}
+
 .texto-sobre-nosotros {
     padding-top: 60px;
     padding-bottom: 40px;
@@ -38,6 +42,7 @@ $separador: 10px;
 
 .titulo-griback {
     font-size: 70px;
+    margin-top: -50px !important;
 }
 
 .riback-cereales {
@@ -67,4 +72,4 @@ $separador: 10px;
 
 .img-logo-sn:hover {
     transform: scale(1.2);
-  }
+}

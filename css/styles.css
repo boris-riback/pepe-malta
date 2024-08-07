@@ -68,6 +68,10 @@ aside {
   font-weight: bolder;
 }
 
+.valores {
+  padding-bottom: 15px;
+}
+
 .texto-sobre-nosotros {
   padding-top: 60px;
   padding-bottom: 40px;
@@ -75,6 +79,7 @@ aside {
 
 .titulo-griback {
   font-size: 70px;
+  margin-top: -50px !important;
 }
 
 .riback-cereales {
