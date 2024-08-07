@@ -68,6 +68,15 @@ aside {
   font-weight: bolder;
 }
 
+.texto-sobre-nosotros {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.titulo-griback {
+  font-size: 70px;
+}
+
 .riback-cereales {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -83,7 +92,16 @@ aside {
   color: #463201;
 }
 
-.img-logo:hover {
+.img-logo-sn {
+  transition: 1s;
+  padding-top: 40px;
+}
+
+.img-logo-sn:last-child {
+  padding-bottom: 20px;
+}
+
+.img-logo-sn:hover {
   transform: scale(1.2);
 }
 
