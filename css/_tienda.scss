@@ -17,12 +17,6 @@ $medidas-logo: 40px;
 $separador: 10px;
 //FIN VARIABLES//
 
-@keyframes pulse {
-    0% {
-        transform: scale(1);
-    }
-}
-
 h5 {
     font-family: buttler;
 }
@@ -34,14 +28,4 @@ aside {
 .card-title {
     text-transform: capitalize;
     text-align: center;
-}
-
-paginacion
-
-
-
-@media only screen and (max-width: 770px) {
-        aside {
-            display: none !important;
-        }
 }
