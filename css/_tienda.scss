@@ -25,7 +25,16 @@ aside {
     z-index: 0;
 }
 
+.aside {
+    background-color: #675141b3 !important;
+    border-radius: 5px;
+}
+
 .card-title {
     text-transform: capitalize;
     text-align: center;
+}
+
+.card {
+    background-color: #675141b3 !important;
 }

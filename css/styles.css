@@ -40,9 +40,18 @@ aside {
   z-index: 0;
 }
 
+.aside {
+  background-color: rgba(103, 81, 65, 0.7019607843) !important;
+  border-radius: 5px;
+}
+
 .card-title {
   text-transform: capitalize;
   text-align: center;
+}
+
+.card {
+  background-color: rgba(103, 81, 65, 0.7019607843) !important;
 }
 
 .featured {
