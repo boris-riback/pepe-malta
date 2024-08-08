@@ -21,7 +21,7 @@ $text-color: #f3e9dc;
 $font-size-titulos: 50px;
 $font-size-textos: 20px;
 $medidas-logo: 40px;
-$separador: 10px;
+$separador: 50px;
 //FIN VARIABLES//
 
 
@@ -117,13 +117,11 @@ nav .logo {
 }
 
 .proceso-productivo {
-    height:100vh;
-
+    height:80vh;
 }
 
 .nuestros-clientes {
     padding-top: $separador;
-    padding-bottom: $separador;
 }
 //FIN SECTIONS
 
@@ -146,10 +144,11 @@ h5 {
 
 //IMAGENES Y VIDEOS
 .img-logo {
-    margin-top: 80px;
     margin-bottom: 20px;
     width: 300px;
+    margin-top: -80px;
 }
+
 
 .carousel-inner {
     margin-top: $separador;
@@ -158,9 +157,6 @@ h5 {
     border: 2px #3c1a10 solid;
 }
 
-.carousel-img {
-    min-height : 420px;
-}
 
 .img-clientes {
     border-radius: 10px;

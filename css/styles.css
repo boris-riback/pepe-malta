@@ -107,7 +107,7 @@ aside {
 }
 
 .img-logo-sn:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 * {
@@ -173,12 +173,11 @@ nav .logo {
 }
 
 .proceso-productivo {
-  height: 100vh;
+  height: 80vh;
 }
 
 .nuestros-clientes {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 50px;
 }
 
 h1 {
@@ -195,26 +194,22 @@ h5 {
 }
 
 .img-logo {
-  margin-top: 80px;
   margin-bottom: 20px;
   width: 300px;
+  margin-top: -80px;
 }
 
 .carousel-inner {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   border-radius: 20px;
   border: 2px #3c1a10 solid;
-}
-
-.carousel-img {
-  min-height: 420px;
 }
 
 .img-clientes {
   border-radius: 10px;
   border: 2px solid #3c1a10;
-  margin-bottom: 10px;
+  margin-bottom: 50px;
   background: #000;
 }
 
