@@ -70,6 +70,8 @@ aside {
   align-content: center;
   font-family: sans-serif;
   font-weight: bolder;
+  font-size: 13px;
+  text-transform: capitalize;
 }
 
 .valores {
@@ -116,6 +118,11 @@ aside {
 
 .video-yt {
   box-shadow: 0px 5px 5px 10px rgba(255, 255, 255, 0.249);
+}
+
+.icono-facts {
+  color: #74ae62;
+  text-shadow: 1px 1px 1px #5beb22;
 }
 
 * {
