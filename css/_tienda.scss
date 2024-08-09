@@ -23,7 +23,7 @@ $separador: 10px;
 }
 
 h5 {
-    font-family: buttler;
+
 }
 
 aside {
@@ -42,4 +42,9 @@ aside {
 
 .card {
     background-color: #675141b3 !important;
+}
+
+.categoria a {
+    text-decoration: none!important;
+    color: rgb(255, 193, 7);
 }

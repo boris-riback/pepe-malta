@@ -37,10 +37,6 @@ form-label {
   padding-bottom: 30px;
 }
 
-h5 {
-  font-family: buttler;
-}
-
 aside {
   z-index: 0;
 }
@@ -57,6 +53,11 @@ aside {
 
 .card {
   background-color: rgba(103, 81, 65, 0.7019607843) !important;
+}
+
+.categoria a {
+  text-decoration: none !important;
+  color: rgb(255, 193, 7);
 }
 
 .featured {
@@ -214,6 +215,8 @@ h2 {
 h5 {
   color: rgba(0, 0, 0, 0.568627451);
   text-shadow: 1px 1px 1px black;
+  font-family: buttler;
+  color: #f3e9dc !important;
 }
 
 .img-logo {
