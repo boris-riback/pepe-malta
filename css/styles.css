@@ -212,6 +212,7 @@ h2 {
 
 h5 {
   color: rgba(0, 0, 0, 0.568627451);
+  text-shadow: 1px 1px 1px black;
 }
 
 .img-logo {
