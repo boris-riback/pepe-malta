@@ -32,6 +32,11 @@ form-label {
   padding: 15px;
 }
 
+.titulo-tienda {
+  margin-top: -50px;
+  padding-bottom: 30px;
+}
+
 h5 {
   font-family: buttler;
 }
