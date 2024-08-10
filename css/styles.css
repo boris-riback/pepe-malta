@@ -60,6 +60,10 @@ aside {
   color: rgb(255, 193, 7);
 }
 
+.bg-image {
+  background-image: url(../imagenes/tienda\ bg.jpg);
+}
+
 .featured {
   background-color: #FBAB7E;
   background-image: linear-gradient(62deg, #FBAB7E 7%, #F7CE68 100%);
@@ -212,9 +216,18 @@ h2 {
   text-shadow: 1px 1px 3px rgb(44, 40, 40);
 }
 
+h4 {
+  color: rgba(0, 0, 0, 0.568627451);
+  text-shadow: 2px 1px 1px black;
+  font-family: buttler;
+  color: #f3e9dc !important;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
 h5 {
   color: rgba(0, 0, 0, 0.568627451);
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 2px 1px 1px black;
   font-family: buttler;
   color: #f3e9dc !important;
 }
@@ -230,6 +243,7 @@ h5 {
   height: 280px;
   -o-object-fit: cover;
      object-fit: cover;
+  transition: 0.3s;
 }
 
 .carousel-inner {
@@ -278,14 +292,37 @@ p {
   font-size: 30px;
 }
 
+.form-label {
+  font-family: Butler;
+  text-shadow: 2px 1px 1px black;
+  color: #f3e9dc;
+}
+
 .nav-item:hover {
   color: #f3e9dc;
+}
+
+.form-control:focus-within {
+  scale: 1.01;
+  transition: 0.5s;
+}
+
+.carousel-item:hover .carousel-img {
+  scale: 1.04;
+  transition: 0.3s;
 }
 
 @media screen and (min-width: 800px) {
   /* el margin-left en el nabvar-div es para que cuando el formato de pantalla sea mas grande, el nabvar quede centrado en el navegador, por que sino se me rompia en el menu hamburguesa */
   .nabvar-div {
     margin-left: 17%;
+  }
+}
+@media screen and (max-width: 800px) {
+  /* el margin-left en el nabvar-div es para que cuando el formato de pantalla sea mas grande, el nabvar quede centrado en el navegador, por que sino se me rompia en el menu hamburguesa */
+  .nav-item {
+    font-size: 10px;
+    margin: 0px;
   }
 }
 @media screen and (max-width: 450px) {

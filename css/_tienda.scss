@@ -22,10 +22,6 @@ $separador: 10px;
     padding-bottom: 30px;
 }
 
-h5 {
-
-}
-
 aside {
     z-index: 0;
 }
@@ -47,4 +43,8 @@ aside {
 .categoria a {
     text-decoration: none!important;
     color: rgb(255, 193, 7);
+}
+
+.bg-image {
+    background-image: url(../imagenes/tienda\ bg.jpg)
 }
