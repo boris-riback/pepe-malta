@@ -79,6 +79,8 @@ main {
 //NAV
 header {
     position: sticky;
+    top: 0;
+    left: 0;
     width: 100%;
     z-index: 1;
 }
@@ -87,6 +89,7 @@ nav {
     font-family: $font-principal;
     background-color: $principal-color;
     text-transform: uppercase;
+    box-shadow: 2px 2px 5px black;
 }
 
 nav .logo img {
@@ -96,13 +99,14 @@ nav .logo img {
 
 nav .logo {
     font-family: $font-principal;
-    font-size: $font-size-textos;
+    font-size: 25px !important;
 }
 
 .nav-item {
     list-style-type: none;
     margin-left: 10px;
-    margin-right: 10px;
+    margin-right: 30px;
+    margin-top: 15px !important;
     transition: 0,5s;
 }
 //TERMINA NAV
@@ -223,6 +227,26 @@ p {
     text-shadow: 2px 1px 1px black;
     color: $text-color;
 }
+
+.wp-flotante {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.697);
+    width: 50px;
+    height: 50px;
+    font-size: 38px;
+    border-radius: 50%;
+}
+
+.wp-flotante a {
+    color:#00bb2d;
+}
 //FIN TEXTOS
 
 
@@ -244,12 +268,6 @@ p {
 
 
 //MEDIA QUERIES
-@media screen and  (min-width:800px) {
-/* el margin-left en el nabvar-div es para que cuando el formato de pantalla sea mas grande, el nabvar quede centrado en el navegador, por que sino se me rompia en el menu hamburguesa */
-    .nabvar-div {
-        margin-left: 17%;
-    }
-}
 
 @media screen and  (max-width:800px) {
     /* el margin-left en el nabvar-div es para que cuando el formato de pantalla sea mas grande, el nabvar quede centrado en el navegador, por que sino se me rompia en el menu hamburguesa */
@@ -265,9 +283,15 @@ p {
     }
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:770px) {
     .proceso-productivo {
-        height: 70vh;
+        height: 100vh;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .wp-flotante {
+        display: none;
     }
 }
 //FIN MEDIA QUERIES
