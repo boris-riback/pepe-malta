@@ -337,7 +337,6 @@ p {
 }
 
 @media screen and (max-width: 800px) {
-  /* el margin-left en el nabvar-div es para que cuando el formato de pantalla sea mas grande, el nabvar quede centrado en el navegador, por que sino se me rompia en el menu hamburguesa */
   .nav-item {
     font-size: 10px;
     margin: 0px;
