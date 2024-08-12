@@ -85,3 +85,15 @@ $separador: 10px;
     text-shadow: 1px 1px 1px #5beb22;
     font-size: 25px;
 }
+
+.bg-image-sn {
+    background-image: url(../imagenes/background\ sn.jpg) !important;
+    background-size: cover;
+    background-attachment: fixed !important;
+}
+
+@media screen and (max-width: 380px) {
+    .bialystok {
+        height:160vh ;
+    }
+}
