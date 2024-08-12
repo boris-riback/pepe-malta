@@ -17,6 +17,18 @@ $medidas-logo: 40px;
 $separador: 10px;
 //FIN VARIABLES//
 
+.bg-image-sn {
+
+    background-size: cover;
+    background-attachment: fixed !important;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: $bg-color;
+}
+
+.main-sn {
+    background-image: url(../imagenes/background\ sn.jpg);
+}
 
 .featured {
     background-color: #FBAB7E;
@@ -86,11 +98,8 @@ $separador: 10px;
     font-size: 25px;
 }
 
-.bg-image-sn {
-    background-image: url(../imagenes/background\ sn.jpg) !important;
-    background-size: cover;
-    background-attachment: fixed !important;
-}
+
+// INICIO MEDIA QUERIES
 
 @media screen and (max-width: 380px) {
     .bialystok {

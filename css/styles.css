@@ -65,6 +65,18 @@ form-label {
   background-image: url(../imagenes/tienda\ bg.jpg);
 }
 
+.bg-image-sn {
+  background-size: cover;
+  background-attachment: fixed !important;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: rgba(218, 180, 157, 0.5215686275);
+}
+
+.main-sn {
+  background-image: url(../imagenes/background\ sn.jpg);
+}
+
 .featured {
   background-color: #FBAB7E;
   background-image: linear-gradient(62deg, #FBAB7E 7%, #F7CE68 100%);
@@ -130,12 +142,6 @@ form-label {
   color: #74ae62;
   text-shadow: 1px 1px 1px #5beb22;
   font-size: 25px;
-}
-
-.bg-image-sn {
-  background-image: url(../imagenes/background\ sn.jpg) !important;
-  background-size: cover;
-  background-attachment: fixed !important;
 }
 
 @media screen and (max-width: 380px) {
